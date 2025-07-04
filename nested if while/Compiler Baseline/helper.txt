@@ -1,0 +1,35 @@
+int address = idcheck($);
+if(address != -1)
+{
+    gen_code();
+}
+
+
+gen_label()
+
+
+LD_INT, 
+LD_VAR, 
+STORE, 
+SCAN_INT_VALUE, 
+PRINT_INT_VALUE, 
+ADD,
+SUB,
+GT_OP,
+LT_OP,
+IF_START,
+ELSE_START,
+ELSE_END,
+WHILE_LABEL,
+WHILE_START,
+WHILE_END
+
+if_statement:
+	IF {$1 = gen_label();} LPAREN exp RPAREN { gen_code(IF_START, $1); } tail ELSE { gen_code(ELSE_START, $1); } tail { gen_code(ELSE_END, $1); }
+    ;
+
+tail: LBRACE statements RBRACE 
+    ;
+
+while_statement: WHILE {$1 = gen_label(); gen_code(WHILE_LABEL, $1); } LPAREN exp RPAREN { gen_code(WHILE_START, $1); } tail { gen_code(WHILE_END, $1); }
+    ;
