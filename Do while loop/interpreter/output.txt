@@ -1,0 +1,76 @@
+In line no 1, Inserting i with type INT_TYPE in symbol table.
+Parsing finished!
+============= INTERMEDIATE CODE===============
+  0: start              -1
+  1: ld_int              0
+  2: store               0
+  3: print_int_value     0
+  4: ld_var              0
+  5: ld_int              1
+  6: add                -1
+  7: store               0
+  8: ld_var              0
+  9: ld_int              5
+ 10: lt                 -1
+ 11: jmp_false          13
+ 12: goto                3
+ 13: halt               -1
+============= RUN CODE IN VIRTUAL MACHINE ===============
+
+
+
+0
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+2
+
+
+
+
+
+
+
+
+
+
+3
+
+
+
+
+
+
+
+
+
+
+4
+
+
+
+
+
+
+
+
+
+
