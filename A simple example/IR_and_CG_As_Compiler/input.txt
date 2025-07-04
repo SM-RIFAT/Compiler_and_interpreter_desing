@@ -1,0 +1,10 @@
+int a;
+int b;
+int c;
+int d;
+a = 10;
+scan(b);
+c = a - b - 10 + scan();
+d = scan() + a - b - 10;
+print(c);
+print (d);
