@@ -1,0 +1,13 @@
+Parsing finished!
+============= INTERMEDIATE CODE===============
+  0: start              -1
+  1: halt               -1
+============= RUN CODE IN VIRTUAL MACHINE ===============
+
+;start -1
+PC =   0 IR.arg =       -1 AR =   7 Top_position =   0, Top_value =        0
+	stack[0] = 0 	stack[1] = 0 	stack[2] = 0 	stack[3] = 0 	stack[4] = 0 	stack[5] = 0 	stack[6] = 0 	stack[7] = 0 	stack[8] = 0 	stack[9] = 0 
+
+;halt -1
+PC =   1 IR.arg =       -1 AR =   7 Top_position =   0, Top_value =        0
+	stack[0] = 0 	stack[1] = 0 	stack[2] = 0 	stack[3] = 0 	stack[4] = 0 	stack[5] = 0 	stack[6] = 0 	stack[7] = 0 	stack[8] = 0 	stack[9] = 0 
